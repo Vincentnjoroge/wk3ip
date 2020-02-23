@@ -1,4 +1,4 @@
-//what we do section //
+//what we do at delani studio //
 
 $(document).ready(function () {
     $(".design_icon").click(function () {
