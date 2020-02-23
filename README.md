@@ -5,17 +5,18 @@ The Author of this project is a student at Moringa School currently taking part 
 
 ## DESCRIPTION
 This is a web application named dehlani studio in which contains all the work I have done during my third week of learning at [MORINGA School](https://moringaschool.com/). It used css ,jquery ,Javascript, Bootstrap, and HTML coded from [Visual Studio Code](https://code.visualstudio.com/). 
-Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk2-IP)
+Here is the [Live Site](https://vincentnjoroge.github.io/wk3ip/.)
 
 ## Setup/Installation Requirements
 Clone this Repository onto your device then open the file and it will lead you to the Web Aplication.
 
 ## TECHNOLOGIES USED
 1. Visual studio code was used in coding the HTML, Bootstrap, and Javascript.
-2. [JSFiddle](https://jsfiddle.net/) was used in testing the Javascript section.
+2. [JSFiddle](https://jsfiddle.net/)  was used in testing the Javascript section.
 3. The Text editor was used in writing the ReadMe.
 4. I used jquery
 5. Javacscript was used in the process
+6. playcode.(https://playcode.io/) was also used in testing the js,jquery
 
 ## CONTACTS
 Phone Number: 0771933091
