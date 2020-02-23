@@ -1,5 +1,5 @@
 
-/*Header section*/
+/*Header*/
 .header{
     min-height: calc(100vh - 94px);
     background:url(../h_img.jpg);
@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 } 
-
+/* header image */
 
 .header img{
     height: 160px;
