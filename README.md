@@ -19,7 +19,7 @@ Clone this Repository onto your device then open the file and it will lead you t
 
 ## CONTACTS
 Phone Number: 0771933091
-Email : adrianhubba@gmail.com
+Email : viny.njoroge1@gmail.com
 
 ## LICENSE
     MIT License
