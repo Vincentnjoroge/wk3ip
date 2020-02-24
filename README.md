@@ -1,6 +1,6 @@
 # Delani studio
 #### 20th February 2020.
-## By VIncentNJOROGE
+## By VINCENTNJOROGE
 The Author of this project is a student at Moringa School currently taking part in the Prep Program.
 
 ## DESCRIPTION
