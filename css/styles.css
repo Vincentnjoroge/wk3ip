@@ -1,119 +1,45 @@
-
-/*Header*/
-.header{
-    min-height: calc(100vh - 94px);
-    background:url(../h_img.jpg);
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} 
-/* header image */
-
-.header img{
-    height: 160px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 95px;
+V
+.icon-scroll,
+.icon-scroll:before {
+    position: absolute;
+    left: 50%
 }
-/* header h3 */
-.header h3{
-    color: cornsilk;
-    text-align: center;
-    font-size: 70px;
+.icon-scroll {
+    width: 30px;
+    height: 50px;
+    margin-left: -20px;
+    bottom: 10px;
+    margin-top: -35px;
+    border: 2px solid #fff;
+    border-radius: 25px
 }
-/* header paragraph*/
-.header p{
-    color: cornsilk;
-    text-align: center;
-    font-size: 17px;
+@media (max-width: 767px) {
+    .icon-scroll {
+        position: relative
+    }
 }
-/* mouse section */
-#mouse{
-    height: 120px;
+.icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin-left: -4px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll
 }
-
-/*-----------------------About us section--------------------*/
-#aboutus{
-    text-align: center;
-    padding-top: 60px;
-}
-
-
-/*--------------Servises----------*/
-#sevices{
-    background:url(../s_image.jpg);
-    text-align: center;
-    padding-top: 60px;
-    color: cornsilk;
+@keyframes scroll {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(26px)
+    }
 }
 
-/*-------------------------What to do section----------*/
-div.gallery {
-  margin: 5px;
-  float: left;
-  width: 180px;
+body{
+  background: black;
 }
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  padding: 20px 20px;
-  
-}
-
-.text-wat_we_do h3{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-/*---------------Portfolio----------*/
- 
-
-
-/* ================================
-Works
-================================= */
-.og-grid {
-    list-style: none;
-    text-align: center;
-	 
-}
-
-.og-grid img{
-    height: 200px;
-}
-
-.og-grid #headin{
-    text-align: center;
-}
-
-.og-grid li {
-    display: inline-block;
-    padding: 10px 7px;
-	 
-}
-/*----------contact Us-----------*/
-.contactus{
-    background: url("../c_image.jpg");
-    height: 100vh;
-}
-
-.contactus #headen{
-    text-align: center;
-    color:white;
-    padding-top: 27px;
-}
-
-form{
-    text-align: center;
-    padding: 30px;
-    opacity: 0.2;
-    border: black
-}
-
-textarea{
-    text-align: center;
-}
-

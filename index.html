@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delani Studios</title>
      <!--bootstrap-->
-     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="bootstrap.css">
      <!--main css-->
-     <link href="css/styles.css" rel="stylesheet" type="text/css">
-     <!--Google fonts-->
-     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Electrolize&display=swap" rel="stylesheet">
-     <!--Google fonts-->     
-     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+     <link href="styles.css" rel="stylesheet">
+    <div id="mouse-click">
+        <img src="mouse_click.png" id="mouse-click">
+    </div>
 
 </head>
 <body>
@@ -22,9 +21,7 @@
                 <h3>Welcome</h3>
                 <h3>To Delani Studios</h3>
                 <p>Amazing people are making Amazing designs in a fun and interactive enviroment </p>
-                <div id="">
-                <img src="mouse_click.png" id="mouse">
-        </div>
+                <div class="icon-scroll"></div>
     </header>
     <!--About section-->
     <div id="aboutus">
@@ -45,84 +42,63 @@
             <p>based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
     </div>
     <!-------------What to do Section----------------->
-    <div class="wat_we_do">
-        <div class="text-wat_we_do">
-            <h3>WHAT WE DO</h3>
-            <div class="table">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="design_icon">
-                            <div id="design_icon">
-                                <img src="design_icon.png">
-                                <div class="p-heading">
-                                    <p>DESIGN</p>
-                                </div>
-                            </div>
-                            <div id="design-p">
-                                <h5>
-                                    DESIGN
-                                </h5>
-                                <p>Our design practice offers a full range of services including brand strategy,
-                                    interaction and visual design and user experience testing.</p>
-                                <p> your project, our designers create and implement visual design and workflows,
-                                    solicit user feedback and work with you to make sure what gets built is what is
-                                    needed. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="dev_icon">
-                            <div id="dev_icon">
-                                <img src="dev_icon.png">
-                                <div class="p-heading">
-                                    <p>DEVELOPMENT</p>
-                                </div>
-                            </div>
-                            <div id="development">
-                                <h5>
-                                    DEVELOPMENT
-                                </h5>
-                                <p>All engineers are fluent in the latest enterprise, mobile and web development
-                                    technologies.</p>
-                                <p>They collaborate with your team to write, and improve code on a daily basis, using
-                                    proven practices such as test-driven development and pair programming.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="product_icon">
-                            <div id="product_icon">
-                                <img src="product_icon.png">
-                                <div class="p-heading">
-                                    <p>PROJECT MANAGEMENT</p>
-                                </div>
-                            </div>
-                            <div id="pmanagent">
-                                <h5>
-                                    PROJECT MANAGEMENT
-                                </h5>
-                                <p>Planning and development is iterative. Because we are constantly coding and testing,
-                                    the products we build are always ready to go live. </p>
-                                <p>iterative process allows for changes as business requirements evolve.</p>
-                            </div>
-                        </div>
-                    </div>
+    <h2>WHAT WE DO</h2>
+    <div class="container-fluid" id="what">
+        <div class="container">
+            <br>
+            <div class="row text-center">
+                <div class="col-md-4 " id="whatWeDo">
+                    <img src="design_icon.png" class="point" id="design-Img">
+                    <h5><strong>DESIGN</strong></h5>
+                    <p id="dsgn" class="To-Do">
+                        Our design practice offers a full range of services including brand
+                        strategy, interaction and visual design and user experience testing.
+                        Throughout your project, our designers create and implement visual
+                        design and workflows, solicit user feedback and work with you to
+                        make sure what gets built is what is needed.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="dev_icon.png" class="point" id="develop-Img">
+                    <h5><strong>DEVELOPMENT</strong></h5>
+                    <p id="dvlpmnt" class="To-Do">
+                        All engineers are fluent in the latest enterprise, mobile and web
+                        development technologies. <br>
+                        They collaborate with your team to write, and improve code on a
+                        daily basis, using proven practices such as test-driven development
+                        and pair programming.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="product_icon.png" class="point" id="product-Img">
+                    <h5><strong>PRODUCT MANAGEMENT</strong></h5>
+                    <p id="prdct" class="To-Do">
+                        Planning and development is iterative.Because we are constantly
+                        coding and testing, the products we build are always ready to go
+                        live.<br>This iterative process allows for changes as business
+                        requirements involve.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <!---------Portfolio section--------->
+    
     <div class="row">
+      
         <div class="col-lg-12">
             <div id="hedin">
                 <h3>portfolio</h3>
             </div>
+            
           <ul id="og-grid" class="og-grid">
+            
             <li>
                 <img src="work1.jpg"alt=""/>
               </a>
             </li>
             <li>
+            
                 <img src="work2.jpg" alt="" />
               </a>
             </li>
@@ -150,30 +126,65 @@
                 <img src="work8.jpg" alt="img01" />
               </a>
             </li>
+          </div>
           </ul>
         </div>
+        </div>
       </div>
+    
     </div>
+  
   </section>
+
 <!-------Contact Us section--------->
-<div class="contactus">
-    <div id="headen">
-        <h4>Contact Us</h4>
-    </div>
-        <form action="/action_page.php" id="usrform">
-            <input type="text" name="Username" value="Name">
-            <input type="text" name="email" value="Email"><br><br><br>
-            <textarea rows="8" cols="80" name="comment" form="usrform">
-                Enter text here...</textarea>
-          </form>
-          <br>
-           
-</div>
+<div class="container-fluid" id="contacts">
+    <h2 class= "contacts">CONTACT US</h2>
+    <form onsubmit=" return validateTheForm()" class="form">
+        <!-- Beginnig of Signup Form -->
+        <div class="row">
+            <div class="col">
+                <input type="text" class="mt-3 form-control" placeholder="Name" id="Name" required>
+            </div>
+            <div class="col">
+                <input type="email" class="mt-3 form-control col-form-label" placeholder="Email" id="Email"
+                    required>
+            </div>
+            <div class="col-sm-12" id="text">
+                <textarea type="text" class="mt-3 form-control" placeholder="Your message here..." id="Text-area"
+                    rows="6" required></textarea>
+            </div><br>
+            <div>
+                <button type="submit" class="btn btn-outline-info mt-3">submit</button>
+                <!----- <a onclick="submit()" class="mt-3 btn btn-outline-info btn-lg">Subscribe</a>-->
+            </div>
+        </div>
+    </form>
+ <!--Social icons area-->
+ <div class="container" >
+     <div class="row">
+       <div class="col-10">
+        <div class=" row justify-content-center footer">
+         <a href="https://twitter.com/"><img src="twitter.png"></a>   
+         <a href="https://dribbble.com/"><img src="dribble.png"></a>
+         <a href="https://www.facebook.com/"><img src="facebook.png"></a> 
+         <a href="https://aboutme.google.com/u/0/?referer=gplus"><img src="g_plus.png"></a>
+         <a href="https://www.skype.com/en/features/skype-web/"><img src="skype.png"></a>
+         <a href="https://www.stumbleupon.com/"><img src="stumble_upon.png"></a>
+         <a href="https://www.behance.net/"><img src="behance.png"></a>  
+         <a href="https://www.pinterest.com/"><img src="pinterest.png"></a>
+        <a href="https://www.flickr.com/"><img src="flickr.png"></a> 
+       </div>
+      </div>
+      <h4> copyright 2020.<br>
+        vincent njoroge
+      </h4>
+     </div>      
+ </div>
     <!--jQuery cdn-->
-    <script
-    src="https://code.jquery.com/jquery.js"
+    <script rc="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+    </script>
     <!--main script file-->
       <script src="javascript/script.js"></script>
 </body>
