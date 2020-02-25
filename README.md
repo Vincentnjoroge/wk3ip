@@ -1,23 +1,26 @@
-# Delani stidio
+# Delani studio
 #### 20th February 2020.
-## By Vincent Njoroge
+## By VINCENT NJOROGE
 The Author of this project is a student at Moringa School currently taking part in the Prep Program.
 
 ## DESCRIPTION
-This is a web application in which contains all the work I have done during my second week of learning at [MORINGA School](https://moringaschool.com/). It used Javascript, Bootstrap, and HTML coded from [Visual Studio Code](https://code.visualstudio.com/). The web application is used to find the users Akan name if he or she was from Ghana. It prompts the user to input his or her gender and his or her Birth date then it calculates the day of the week the user was born and shows the Akan name of the user.
-Here is the [Live Site](https://Adrian-Wanjau.github.io/Wk2-IP)
+This is a web application named dehlani studio in which contains all the work I have done during my third week of learning at [MORINGA School](https://moringaschool.com/). It used css ,jquery ,Javascript, Bootstrap, and HTML coded from [Visual Studio Code](https://code.visualstudio.com/). the website is about a studio.DELANI STUDIO
+Here is the [Live Site](https://vincentnjoroge.github.io/wk3ip/.)
 
 ## Setup/Installation Requirements
 Clone this Repository onto your device then open the file and it will lead you to the Web Aplication.
 
 ## TECHNOLOGIES USED
 1. Visual studio code was used in coding the HTML, Bootstrap, and Javascript.
-2. [JSFiddle](https://jsfiddle.net/) was used in testing the Javascript section.
+2. [JSFiddle](https://jsfiddle.net/)  was used in testing the Javascript section.
 3. The Text editor was used in writing the ReadMe.
+4. I used jquery
+5. Javacscript was used in the process
+6. playcode.(https://playcode.io/) was also used in testing the js,jquery
 
 ## CONTACTS
-Phone Number: 0704204925
-Email : adrianhubba@gmail.com
+Phone Number: 0771933091
+Email : viny.njoroge1@gmail.com
 
 ## LICENSE
     MIT License
